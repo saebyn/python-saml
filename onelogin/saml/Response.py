@@ -103,7 +103,7 @@ class Response(object):
         Return True if valid, otherwise False.
         """
         if _clock is None:
-            _clock = lambda :datetime.now(dateutil.tz.tzutc())
+            _clock = lambda: datetime.now(dateutil.tz.tzutc())
         if _verifier is None:
             _verifier = SignatureVerifier.verify
 

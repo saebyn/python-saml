@@ -34,7 +34,7 @@ class ExampleCommand(_install.install):
 
 install_requires = [
         'lxml>=2.3',
-        'python-dateutil<2.0',
+        'python-dateutil',
         ]
 tests_require = [
         'fudge >=0.9.5',
